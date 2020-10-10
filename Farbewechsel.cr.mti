@@ -1,0 +1,14 @@
+C:/Users/Jamoussi/Desktop/4bpp/Farbe.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/Jamoussi/Desktop/4bpp/Farbe.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package ENV
+** Warning: C:/Users/Jamoussi/Desktop/4bpp/Farbe.vhd(5): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity Farbe
+-- Compiling architecture reading of Farbe
+** Warning: C:/Users/Jamoussi/Desktop/4bpp/Farbe.vhd(82): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+} {} {}}

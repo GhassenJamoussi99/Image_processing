@@ -1,0 +1,22 @@
+Hexeditor zu verwenden
+
+ https://en.wikipedia.org/wiki/BMP_file_format
+
+1 byte = 8 bits;
+
+
+                                      00 00 FF (00) Red        ..ÿ. (Die Pünkte sind leerzeichen)
+Die Anordnung der 4 bpp bmp ist       BB GG RR (00)            ||| FF 00 00 32 bpp (RR GG BB)
+                                      FF 00 00 (00) Blue       ý... (Die Pünkte sind leerzeichen)
+
+
+
+https://de.wikipedia.org/wiki/Windows_Bitmap
+Jeder Eintrag der Farbtabelle ist 4 Byte groß und enthält jeweils ein Byte 
+für den Blau-, Grün- und Rotanteil, sowie ein auf 0 gesetztes Byte (in dieser 
+Reihenfolge!).
+
+The very same can be found there:
+https://en.wikipedia.org/wiki/BMP_file_format
+In most cases, each entry in the color table occupies 4 bytes, 
+in the order blue, green, red, 0x00 (see below for exceptions).
